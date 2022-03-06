@@ -42,7 +42,7 @@ function pre($arr){
 // excerpt function to get a part of string
 
 function excerpt($text,$numOfChars = 10){
-    return strlen($text) < $numOfChars ? mb_substr($text,0,$numOfChars) . '...' : $text;
+    return strlen($text) >= $numOfChars ? mb_substr($text,0,$numOfChars) . '...' : $text;
 }
 
 // format date function
