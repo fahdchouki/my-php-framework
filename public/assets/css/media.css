@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap");
+@media (max-width: 1240px) {
+  .navbar .logo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .navbar .menu {
+    display: none;
+  }
+  .navbar .media-menu {
+    position: fixed;
+    display: block;
+    list-style: none;
+    height: 100%;
+    right: -350px;
+    top: 0;
+    background: #001d4a;
+    text-align: center;
+    padding-right: 20px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  .navbar .media-menu li {
+    display: block;
+    margin: 25px 20px;
+  }
+  .navbar .media-menu li a {
+    text-decoration: none;
+    color: #fbfbff;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 15px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    display: block;
+  }
+  .navbar .media-menu li a:hover {
+    background: #313cda;
+  }
+  .navbar .media-menu li a.active {
+    background: #313cda;
+  }
+  .navbar .media-menu li i.close {
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #fbfbff;
+    background-color: #21a184;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .navbar .icons {
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+  }
+  .navbar .icons li i.bars {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #f7f3f3;
+  }
+}
+
+@media (max-width: 1000px) {
+  .book-info {
+    margin-top: 110px;
+  }
+  .book-info .book-cover {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+  .book-info .book-cover img {
+    width: 80%;
+  }
+  .book-info .book-det {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+  }
+  .about-section .about-container .about {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .about-section .about-container .about .about-text {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+  }
+  .about-section .about-container .about .about-img {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .logo img {
+    width: 100%;
+  }
+  .book-info {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 110px;
+  }
+  .book-info .book-cover {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .book-info .book-cover img {
+    width: 50%;
+  }
+  .book-info .book-det {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+  }
+  section.services .cards .serv-card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 940px) {
+  .cart {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .cart .products {
+    width: 100%;
+  }
+  .cart .products .product {
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .cart .products .product .product-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .cart .cart-total {
+    width: 100%;
+  }
+  section.services {
+    margin-top: 80px;
+  }
+  section.services .intro .intro-container {
+    width: 100%;
+  }
+  section.services .intro .intro-container .text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 99%;
+  }
+  .about-section .about-container {
+    width: 100%;
+  }
+  .about-section .about-container .about {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .about-section .about-container .about .about-text {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+  }
+  .about-section .about-container .about .about-img {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 100%;
+  }
+  section.services .cards .serv-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 280px) {
+  .container {
+    width: 99%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
